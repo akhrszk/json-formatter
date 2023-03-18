@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# JSON 整形ツール
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+このプロジェクトは、JSON 文字列を整形して表示するシンプルな Web アプリケーションです。React を使用して作成されています。
 
-## Available Scripts
+## 機能
 
-In the project directory, you can run:
+- 入力された JSON 文字列の整形
+- 構文エラーの表示
+- 整形済み JSON をクリップボードにコピー
 
-### `npm start`
+## デモ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+このプロジェクトは GitHub Pages でデプロイされており、以下の URL でアクセスできます。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://akhrszk.github.io/json-formatter/
 
-### `npm test`
+## インストールと実行
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+このリポジトリをクローンまたはダウンロードした後、以下のコマンドを実行して依存関係をインストールします。
 
-### `npm run build`
+```bash
+npm install
+# 依存関係がインストールされたら、以下のコマンドで開発サーバーを起動します。
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+開発サーバーが起動すると、[http://localhost:3000](http://localhost:3000)でアプリケーションにアクセスできます。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ビルド
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+以下のコマンドで、本番用のビルドを作成できます。
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ビルドが成功すると、`build`ディレクトリが作成され、その中に本番用の静的ファイルが格納されます。
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ライセンス
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[MIT License](https://chat.openai.com/chat/LICENSE)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+この README は、プロジェクトの概要、機能、インストール方法、実行方法、およびビルド方法を説明しています。プロジェクトに合わせて内容を適宜変更し、`README.md`ファイルとしてプロジェクトのルートディレクトリに追加してください。
 
-## Learn More
+## クレジット
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+このプロジェクトは、[OpenAI](https://www.openai.com/)の AI モデル[ChatGPT](https://platform.openai.com/docs/guides/chat)によって生成されました。開発プロセス全体にわたり、ChatGPT との対話を通じてプロジェクトのソースコードとドキュメントが作成されました。
