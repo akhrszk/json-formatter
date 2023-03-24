@@ -42,3 +42,12 @@ button:hover {
   border: 1px solid #ccc;
   min-height: 50px; /* 追加 */
 }
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}

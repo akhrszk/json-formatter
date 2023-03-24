@@ -42,32 +42,39 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1>JSON整形ツール</h1>
-      <div>
-        <h3>JSON入力:</h3>
-        <textarea
-          rows="10"
-          cols="60"
-          value={inputJSON}
-          onChange={handleJSONInput}
-        ></textarea>
-      </div>
-      {error && (
+    <div>
+      <div className="App">
+        <h1>JSON整形ツール</h1>
         <div>
-          <h3>エラー:</h3>
-          <p style={{ color: "red" }}>{error}</p>
+          <h3>JSON入力:</h3>
+          <textarea
+            rows="10"
+            cols="60"
+            value={inputJSON}
+            onChange={handleJSONInput}
+          ></textarea>
         </div>
-      )}
-      <div>
-        <h3>整形済みJSON:</h3>
-        <div className="json-output">
-          <pre>{formattedJSON}</pre>
-          <button className="copy-button" onClick={copyToClipboard}>
-            クリップボードにコピー
-          </button>
+        {error && (
+          <div>
+            <h3>エラー:</h3>
+            <p style={{ color: "red" }}>{error}</p>
+          </div>
+        )}
+        <div>
+          <h3>整形済みJSON:</h3>
+          <div className="json-output">
+            <pre>{formattedJSON}</pre>
+            <button className="copy-button" onClick={copyToClipboard}>
+              クリップボードにコピー
+            </button>
+          </div>
         </div>
       </div>
+
+      <footer>
+        &copy; <a href="https://akihiro.dev">akihiro.dev</a> -{" "}
+        {new Date().getFullYear()}
+      </footer>
     </div>
   );
 }
