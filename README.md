@@ -41,7 +41,3 @@ npm run build
 [MIT License](https://chat.openai.com/chat/LICENSE)
 
 この README は、プロジェクトの概要、機能、インストール方法、実行方法、およびビルド方法を説明しています。プロジェクトに合わせて内容を適宜変更し、`README.md`ファイルとしてプロジェクトのルートディレクトリに追加してください。
-
-## クレジット
-
-このプロジェクトは、[OpenAI](https://www.openai.com/)の AI モデル[ChatGPT](https://platform.openai.com/docs/guides/chat)によって生成されました。開発プロセス全体にわたり、ChatGPT との対話を通じてプロジェクトのソースコードとドキュメントが作成されました。
